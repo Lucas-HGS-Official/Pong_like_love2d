@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+  "workspace.checkThirdParty": "Apply",
+  "runtime.version": "LuaJIT",
+  "workspace.library": ["../love2d-luacats", "${3rd}/love2d/library"],
+  "runtime.special": {
+    "love.filesystem.load": "loadfile"
+  },
+  "hint.enable": true
+}
