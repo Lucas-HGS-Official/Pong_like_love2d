@@ -67,9 +67,9 @@ function love.load()
     love.graphics.setFont(small_font)
 
     sounds = {
-        ["paddle_hit"] = love.audio.newSource("paddle_hit.wav", "static"),
-        ["score"] = love.audio.newSource("score.wav", "static"),
-        ["wall_hit"] = love.audio.newSource("wall_hit.wav", "static")
+        ["paddle_hit"] = love.audio.newSource("sounds/paddle_hit.wav", "static"),
+        ["score"] = love.audio.newSource("sounds/score.wav", "static"),
+        ["wall_hit"] = love.audio.newSource("sounds/wall_hit.wav", "static")
     }
 
     push:setupScreen(VIRTUAL_WIDTH, VIRTUAL_HEIGHT, WINDOW_WIDTH, WINDOW_HEIGHT, {
